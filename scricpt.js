@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const f=document.getElementById('issueForm');if(f){f.addEventListener('submit',e=>{e.preventDefault();alert('Issue submitted successfully!');f.reset();});}});
